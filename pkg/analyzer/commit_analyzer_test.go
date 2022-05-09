@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/go-semantic-release/semantic-release/v2/pkg/semrel"
 	"github.com/stretchr/testify/require"
+	"github.com/ted-vo/semantic-release/v3/pkg/semrel"
 )
 
 func compareCommit(c *semrel.Commit, t, s string, change *semrel.Change) bool {

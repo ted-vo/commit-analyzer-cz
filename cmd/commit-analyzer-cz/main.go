@@ -1,9 +1,9 @@
 package main
 
 import (
-	defaultAnalyzer "github.com/go-semantic-release/commit-analyzer-cz/pkg/analyzer"
-	"github.com/go-semantic-release/semantic-release/v2/pkg/analyzer"
-	"github.com/go-semantic-release/semantic-release/v2/pkg/plugin"
+	defaultAnalyzer "github.com/ted-vo/commit-analyzer-cz/pkg/analyzer"
+	"github.com/ted-vo/semantic-release/v3/pkg/analyzer"
+	"github.com/ted-vo/semantic-release/v3/pkg/plugin"
 )
 
 func main() {
